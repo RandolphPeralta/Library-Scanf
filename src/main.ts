@@ -1,7 +1,7 @@
-import {Application} from "./src/runapp/app"
-import {View} from "./src/ui/view";
-import {InMemoryService} from "./src/persistence/memory";
-import {Estudiante, Libro, Prestamo} from "./src/modelsave/type";
+import {Application} from "./runapp/app"
+import {View} from "./ui/view";
+import {InMemoryService} from "./persistence/memory";
+import {Estudiante, Libro, Prestamo} from "./modelsave/type";
 
 const studentmemory = new InMemoryService<Estudiante>()
 const bookmemory = new InMemoryService<Libro>()

@@ -21,8 +21,5 @@
   "dependencies": {
     "scanf": "^1.2.0",
     "typescript": "^6.0.2"
-  },
-  "devDependencies": {
-    "@types/scanf": "^0.0.5"
   }
 }

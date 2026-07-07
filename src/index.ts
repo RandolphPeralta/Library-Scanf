@@ -1,24 +1,24 @@
-import { InMemoryService } from "./src/persistence/memory";
-import { Prestamo, Libro, Estudiante } from "./src/modelsave/type";
-import { MenuAccion } from "./src/ui/menuAction";
-import { ConsoleView } from "./src/ui/consoleView";
-import { App } from "./src/runapp/appb";
-import { CreateStudentCommand } from "./src/ui/comandos/createStud";
-import { DeleteStudentCommand } from "./src/ui/comandos/deleteStud"
-import { UpdateStudentCommand } from "./src/ui/comandos/updateStud";
-import { ReadStudentCommand } from "./src/ui/comandos/readStud";
-import { FindStudCommand } from "./src/ui/comandos/findbyidStud"
-import { CreateBookCommand } from "./src/ui/comandos/createBook";
-import { DeleteBookCommand } from "./src/ui/comandos/deleteBook"
-import { UpdateBookCommand} from "./src/ui/comandos/updateBook";
-import { ReadBookCommand } from "./src/ui/comandos/readBook";
-import { FindBookCommand } from "./src/ui/comandos/findbyidBook";
-import { LendBookCommand } from "./src/ui/comandos/lendBook";
-import { ReturnBookCommand } from "./src/ui/comandos/returnBoo";
-import { UpdateLoanCommand } from "./src/ui/comandos/updateLoan";
-import { ReadLoanCommand} from "./src/ui/comandos/readLoan";
-import { FindLoanCommand } from "./src/ui/comandos/searchLoan";
-import { ExitCommand } from "./src/ui/comandos/exit";
+import { InMemoryService } from "./persistence/memory";
+import { Prestamo, Libro, Estudiante } from "./modelsave/type";
+import { MenuAccion } from "./ui/menuAction";
+import { ConsoleView } from "./ui/consoleView";
+import { App } from "./runapp/appb";
+import { CreateStudentCommand } from "./ui/comandos/createStud";
+import { DeleteStudentCommand } from "./ui/comandos/deleteStud"
+import { UpdateStudentCommand } from "./ui/comandos/updateStud";
+import { ReadStudentCommand } from "./ui/comandos/readStud";
+import { FindStudCommand } from "./ui/comandos/findbyidStud"
+import { CreateBookCommand } from "./ui/comandos/createBook";
+import { DeleteBookCommand } from "./ui/comandos/deleteBook"
+import { UpdateBookCommand} from "./ui/comandos/updateBook";
+import { ReadBookCommand } from "./ui/comandos/readBook";
+import { FindBookCommand } from "./ui/comandos/findbyidBook";
+import { LendBookCommand } from "./ui/comandos/lendBook";
+import { ReturnBookCommand } from "./ui/comandos/returnBoo";
+import { UpdateLoanCommand } from "./ui/comandos/updateLoan";
+import { ReadLoanCommand} from "./ui/comandos/readLoan";
+import { FindLoanCommand } from "./ui/comandos/searchLoan";
+import { ExitCommand } from "./ui/comandos/exit";
 
 const memorialibro = new InMemoryService<Libro>();
 const memoriaestudiante = new InMemoryService<Estudiante>();
