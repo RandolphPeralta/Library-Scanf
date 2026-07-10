@@ -1,4 +1,4 @@
-import { IAccionadicional } from "../core/abstration/interfaces"
+import { IAccionadicional } from "../abstration/interfaces"
 
 export class InMemoryService<T> implements IAccionadicional<T> {
     private databaseInMemory: Array<any> = []
