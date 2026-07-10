@@ -26,6 +26,10 @@ module.exports = {
     }
   },
 
+  externals: {
+        "scanf": "commonjs scanf"
+    },
+
   devServer: {
     static: {
       directory: path.join(__dirname, "src/ui/web")
