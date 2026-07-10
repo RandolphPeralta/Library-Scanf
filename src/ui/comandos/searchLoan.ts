@@ -1,5 +1,5 @@
 import { IAccionadicional } from "../../abstration/interfaces";
-import { Prestamo } from "../../modelsave/type";
+import { Prestamo } from "../../types/type";
 import scanf from 'scanf';
 import { ICommand } from "../../abstration/interfaces";
 

@@ -1,5 +1,5 @@
 import { IAccionadicional } from "../../abstration/interfaces";
-import { Estudiante } from "../../modelsave/type";
+import { Estudiante } from "../../types/type";
 import scanf from 'scanf';
 import { ICommand } from "../../abstration/interfaces";
 

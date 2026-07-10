@@ -1,6 +1,6 @@
 import scanf from 'scanf';
 import { IAccionadicional } from "../abstration/interfaces"
-import { Estudiante, Libro, Prestamo } from "../modelsave/type"
+import { Estudiante, Libro, Prestamo } from "../types/type"
 
 export class View {
 
@@ -35,7 +35,7 @@ export class View {
         this.processOptionSelected(selectedOption)
     }
 
-    processOptionSelected(option: string): void {
+    private processOptionSelected(option: string): void {
         switch (option) {
             case "1":
                 this.createStudent();
