@@ -1,5 +1,5 @@
 import { InMemoryService } from "./persistence/memory";
-import { Prestamo, Libro, Estudiante } from "./modelsave/type";
+import { Prestamo, Libro, Estudiante } from "./types/type";
 import { MenuAccion } from "./ui/menuAction";
 import { ConsoleView } from "./ui/consoleView";
 import { App } from "./runapp/appb";
