@@ -1,7 +1,7 @@
 {
   "name": "training",
   "version": "1.0.0",
-  "description": "En este repositorio se escribirán ejercicios y apuntes",
+  "description": "Sistema de gestión de biblioteca ejecutable en la terminal y en el navegador",
   "main": "index.js",
   "scripts": {
     "build:console": "tsc",
@@ -15,7 +15,7 @@
     "url": "git+https://github.com/RandolphPeralta/Training.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Randolph",
   "license": "ISC",
   "type": "commonjs",
   "bugs": {
