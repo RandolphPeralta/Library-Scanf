@@ -1,6 +1,6 @@
 import {Application} from "./runapp/app"
 import {View} from "./ui/view";
-import {InMemoryService} from "./persistence/memory";
+import {InMemoryService} from "./core/persistence/memory";
 import {Estudiante, Libro, Prestamo} from "./types/type";
 
 const studentmemory = new InMemoryService<Estudiante>()

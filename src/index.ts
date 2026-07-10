@@ -1,4 +1,4 @@
-import { InMemoryService } from "./persistence/memory";
+import { InMemoryService } from "./core/persistence/memory";
 import { Prestamo, Libro, Estudiante } from "./types/type";
 import { MenuAccion } from "./ui/menuAction";
 import { ConsoleView } from "./ui/consoleView";
