@@ -1,4 +1,4 @@
-import { ICommand } from "../../abstration/interfaces"
+import { ICommand } from "../../core/abstration/interfaces"
 
 export class ExitCommand implements ICommand {
     execute() {

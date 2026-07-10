@@ -1,5 +1,5 @@
 import scanf from 'scanf';
-import { IAccionadicional } from "../abstration/interfaces"
+import { IAccionadicional } from "../core/abstration/interfaces"
 import { Estudiante, Libro, Prestamo } from "../types/type"
 
 export class View {

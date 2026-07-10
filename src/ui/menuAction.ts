@@ -1,4 +1,4 @@
-import { ICommand } from "../abstration/interfaces";
+import { ICommand } from "../core/abstration/interfaces";
 import scanf from "scanf";
 
 export class MenuAccion {

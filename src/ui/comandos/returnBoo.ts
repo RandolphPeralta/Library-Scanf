@@ -1,7 +1,7 @@
-import { IAccionadicional } from "../../abstration/interfaces";
+import { IAccionadicional } from "../../core/abstration/interfaces";
 import { Libro, Prestamo } from "../../types/type";
 import scanf from 'scanf';
-import { ICommand } from "../../abstration/interfaces";
+import { ICommand } from "../../core/abstration/interfaces";
 
 export class ReturnBookCommand implements ICommand {
 
